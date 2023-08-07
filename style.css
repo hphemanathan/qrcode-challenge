@@ -1,3 +1,114 @@
+/* ----------------------------------------- */
+/* CSS Reset */
+/* ----------------------------------------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
 body {
-  font-family: "Courier New", Courier, monospace;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* ----------------------------------------- */
+/* Custom Properties */
+/* ----------------------------------------- */
+:root {
+  --bg-color: #d5e1ef;
+}
+
+/* ----------------------------------------- */
+/* Base Styles */
+/* ----------------------------------------- */
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+/* ----------------------------------------- */
+/* General Styles */
+/* ----------------------------------------- */
+
+body {
+  background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 9.5rem auto;
+  text-align: center;
+  width: 20rem;
+  border-radius: 1.25rem;
+  background-color: white;
+}
+
+.qrcode___image {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1.25rem;
+}
+
+.qrcode___heading {
+  padding: 1rem 2rem;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #1f314f;
+}
+
+.qrcode___text {
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.01175rem;
+  padding: 1rem 2rem;
+  padding-top: 0;
+  padding-bottom: 2.5rem;
+  flex-shrink: 1;
+  color: #7d889e;
+}
+
+.footer {
+  margin-top: auto;
+  text-align: center;
+  justify-content: center;
 }
