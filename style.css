@@ -52,9 +52,12 @@ h6 {
 /* ----------------------------------------- */
 /* Base Styles */
 /* ----------------------------------------- */
-
+html {
+  height: 100%;
+}
 body {
   font-family: "Outfit", sans-serif;
+  min-height: 100%;
 }
 
 /* ----------------------------------------- */
@@ -65,6 +68,8 @@ body {
   background-color: var(--bg-color);
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -74,14 +79,14 @@ body {
   justify-content: center;
   margin: 9.5rem auto;
   text-align: center;
-  width: 20rem;
+  width: min(90%, 20rem);
   border-radius: 1.25rem;
   background-color: white;
 }
 
 @media (max-width: 59em) {
   .container {
-    margin: 5.31rem auto;
+    margin: min(13%, 5.31rem) auto 5.31rem auto;
   }
 }
 
@@ -114,9 +119,5 @@ body {
 }
 
 .footer {
-  display: inline-block;
   margin-top: auto;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
 }
