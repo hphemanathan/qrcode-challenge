@@ -86,7 +86,7 @@ body {
 
 @media (max-width: 59em) {
   .container {
-    margin: 5.31rem auto;
+    margin: min(13%, 5.31rem) auto 5.31rem auto;
   }
 }
 
