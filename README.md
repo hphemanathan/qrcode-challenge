@@ -15,6 +15,8 @@
 
 ## Overview
 
+QR code component using HTML, CSS with flexbox
+
 ### Screenshot
 
 ![](./screenshot.jpg)
