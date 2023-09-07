@@ -15,7 +15,7 @@
 
 ## Overview
 
-QR code component using HTML, CSS with flexbox
+QR code component using HTML5, CSS3 with flexbox
 
 ### Screenshot
 
