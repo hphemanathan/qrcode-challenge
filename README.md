@@ -19,7 +19,7 @@ QR code component using HTML5, CSS3 with flexbox
 
 ### Screenshot
 
-[Qr code component](/home/hemanathan/qrcode-challenge/images/Screenshot 1.png)
+![Screenshot 2023-09-12 at 09-51-11 Frontend Mentor QR code component](https://github.com/hphemanathan/qrcode-challenge/assets/18226707/3469cc60-f538-44c0-8a2a-1bfc1aba347d)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
