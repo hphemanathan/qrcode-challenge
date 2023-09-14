@@ -32,4 +32,4 @@ QR code component using HTML5, CSS3 with flexbox
 ## Author
 
 - Github - [@hphemanathan](https://github.com/hphemanathan)
-- Linkedin - [@hemanathanhp](www.linkedin.com/in/hemanathan-h-p-849876117)
+- Linkedin - [Hemanathan H P](www.linkedin.com/in/hemanathan-h-p-849876117)
