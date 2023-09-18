@@ -17,7 +17,7 @@ QR code component using HTML5, CSS3 with flexbox
 
 ### Links
 
-- Solution URL: [https://github.com/hphemanathan/qrcode-challenge](https://your-solution-url.com)
+- Solution URL: [https://github.com/hphemanathan/qrcode-challenge](https://github.com/hphemanathan/qrcode-challenge)
 - Live Site URL: [https://jazzy-pastelito-263974.netlify.app/](https://your-live-site-url.com)
 
 ## My process
